@@ -20,4 +20,9 @@ This script automatically configures VLANs, trunks, access ports, security setti
 ```sh
 git clone https://github.com/yourusername/Cisco_switch_config.git
 cd Cisco_switch_config
+python3 -m venv venv
+source venv/bin/activate
+pip install
+pip install -m pyserial
+python3 switch_config.py
 # Cisco_switch_config

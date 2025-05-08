@@ -1,0 +1,25 @@
+{
+  "global": {
+      "data_vlan": "10",
+      "voice_vlan": "20",
+      "management_vlan": "99",
+      "console_password": "cisco123",
+      "vty_password": "cisco123",
+      "enable_password": "cisco456",
+      "ssh_modulus": 2048,
+      "baud_rate": 9600,
+      "total_ports": 2,
+      "serial_port": "/dev/ttyUSB0"
+  },
+  "switches": [
+      {
+          "hostname": "Switch1",
+          "vlans": {
+              "10": {"name": "DATA", "ip": null, "subnet": null},
+              "20": {"name": "VOICE", "ip": null, "subnet": null},
+              "99": {"name": "MGMT", "ip": "192.168.99.2", "subnet": "255.255.255.0"}
+          },
+          "trunk_ports": ["GigabitEthernet0/1"]
+      }
+  ]
+}

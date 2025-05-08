@@ -5,6 +5,8 @@ This script automatically configures VLANs, trunks, access ports, security setti
 
 ---
 
+## Use with Linux only right now. Will work on a Windows version.
+
 ## Features
 - Automated VLAN & Trunk Configuration  
 - 802.1Q Trunking (Dot1Q) Support  

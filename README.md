@@ -88,10 +88,8 @@ Edit config.json as needed. The options are fairly limited at this point. I have
 }
   
 ```  
-
-
-## Running and Debugging
 ---
+## Running and Debugging
 
 ```sh
 ## Run script

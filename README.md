@@ -20,7 +20,8 @@ This script automatically configures VLANs, trunks, access ports, security setti
 ## Installation
 Clone the Repository
 ```sh
-git clone https://github.com/yourusername/Cisco_switch_config.git
+git clone https://github.com/markleethomasI/Cisco_switch_config.git
+
 cd Cisco_switch_config
 
 ## Create virtual env

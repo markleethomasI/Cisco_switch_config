@@ -35,12 +35,13 @@ pip install
 ## Install pyserial
 pip install -m pyserial
 
-### Configuration
-Edit config.json as needed. The options are fairly limited at this point. I have no hardware available, but I have tested the command outputs in packet tracer and it is fully functional. I would love to add more features. Configuration is fairly straight forward.
-
-## Example Configuration
 ```
 
+---
+## Configuration
+Edit config.json as needed. The options are fairly limited at this point. I have no hardware available, but I have tested the command outputs in packet tracer and it is fully functional. I would love to add more features. Configuration is fairly straight forward.
+
+### Example Configuration
 ```json
 {
     "global": {

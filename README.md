@@ -89,22 +89,28 @@ Edit config.json as needed. The options are fairly limited at this point. I have
   
 ```  
 ---
-## Running and Debugging
+## Running
 
-You can check the command output to serial using debug mode as mentioned below. 
+Execution is fairly simple
 
 ```sh
 ## Run script
 python3 switch_config.py
-
+```
+---
 ## Testing
+Basic testing at this point. I will expand more on it as time goes on.
+```sh
 I implemented basic testing using mocks.
 
 PYTHONPATH=. pytest tests/test_switch_config.py -v -s
-
-### Debugging
+```
+---
+## Debugging
+```sh
 To view your command output run this. It is in a log block a few lines up.
 
+Example:
 DEBUG    switch_config:switch_config.py:21 Reading output
 DEBUG    switch_config:switch_config.py:23 Received output: Mocked output
 DEBUG    switch_config:switch_config.py:109 Configuration completed for Switch1

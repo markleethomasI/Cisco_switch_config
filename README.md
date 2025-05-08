@@ -91,6 +91,8 @@ Edit config.json as needed. The options are fairly limited at this point. I have
 ---
 ## Running and Debugging
 
+You can check the command output to serial using debug mode as mentioned below. 
+
 ```sh
 ## Run script
 python3 switch_config.py
